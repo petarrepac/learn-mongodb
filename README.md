@@ -8,4 +8,3 @@ Play with MongoDb
 * introduction chapter
 * JavaScript shell - inserts, updates, queries, deletes
 * Basic administration, how commands work
-* 
