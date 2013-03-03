@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDbTestDrive.Data", "MongoDbTestDrive.Data\MongoDbTestDrive.Data.csproj", "{F0151F96-185E-47F2-9DDC-0D4BD0C623BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDbTestDrive.Domain", "MongoDbTestDrive.Domain\MongoDbTestDrive.Domain.csproj", "{5E724730-701B-4B98-B150-3173E2E020D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{103B7555-7C77-4990-B62A-42A7C39E0CB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDbTestDrive.Data.Test", "MongoDbTestDrive.Data.Test\MongoDbTestDrive.Data.Test.csproj", "{9DAE4B25-4447-47ED-8576-33CC68021F80}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{4FAF7A8E-3200-4C46-8170-42AE3312328A}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0151F96-185E-47F2-9DDC-0D4BD0C623BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0151F96-185E-47F2-9DDC-0D4BD0C623BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0151F96-185E-47F2-9DDC-0D4BD0C623BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0151F96-185E-47F2-9DDC-0D4BD0C623BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E724730-701B-4B98-B150-3173E2E020D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E724730-701B-4B98-B150-3173E2E020D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E724730-701B-4B98-B150-3173E2E020D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E724730-701B-4B98-B150-3173E2E020D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DAE4B25-4447-47ED-8576-33CC68021F80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DAE4B25-4447-47ED-8576-33CC68021F80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DAE4B25-4447-47ED-8576-33CC68021F80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DAE4B25-4447-47ED-8576-33CC68021F80}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9DAE4B25-4447-47ED-8576-33CC68021F80} = {103B7555-7C77-4990-B62A-42A7C39E0CB7}
+	EndGlobalSection
+EndGlobal
