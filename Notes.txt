@@ -1,0 +1,2 @@
+check strict node in c# driver - prevents accidental creating of wrong collections
+
