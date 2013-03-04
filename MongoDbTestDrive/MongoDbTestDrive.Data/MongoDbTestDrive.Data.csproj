@@ -47,10 +47,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IMovieRepository.cs" />
+    <Compile Include="Implementations\MongoRepository.cs" />
+    <Compile Include="Implementations\MovieRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\MongoDbTestDrive.Domain\MongoDbTestDrive.Domain.csproj">
+      <Project>{5e724730-701b-4b98-b150-3173e2e020d3}</Project>
+      <Name>MongoDbTestDrive.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
