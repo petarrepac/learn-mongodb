@@ -9,6 +9,7 @@ Play with MongoDb
 * JavaScript shell - inserts, updates, queries, deletes
 * Basic administration, how commands work
 * used NUnit tests to check basic operations with MongoDb
+* VS2012 solution: **learn-mongodb\MongoDbTestDrive\MongoDbTestDrive.sln**
 * running test **requires a running MongoDb server** on local instance with default ports
 * created domain model with **Movies**, **ActorRoles** and **UserReviews** (inspired by IMDB)
 * created test data for The Matrix and Casablanca
